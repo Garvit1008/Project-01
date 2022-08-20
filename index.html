@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <style type="text/css">
+        #slide{
+          overflow: hidden;
+        }
+        #slider figure{
+          position: relative;
+          width: 500%;
+          margin: 0;
+          left:0;
+          animation: 10s slider infinite; 
+        }
+        #slider figure img{
+          width: 20%;
+          float: left;
+        }
+        @keyframes slider{
+            0% {
+              left: 0;
+            }
+            20% {
+              left: 0;
+            }
+            25% {
+              left: -100%;
+            }
+            45% {
+              left: -100%;
+            }
+            50% {
+              left: -200%;
+            }
+            70% {
+              left: -200%;
+            }
+            95% {
+              left: -300%;
+            }
+            100% {
+              left:-400%
+            }
+
+        }
+      </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+    </head> 
+    <body>
+        <header class="header fixed-top" style="z-index: 999999999999999999999999999999999">
+            <a href="#" class="logo"><img src="logo.png" alt="" width="100%"></a>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    
+                    <li><a href="#about">about</a></li>
+                   
+                    <li><a href="#services">Services</a></li>
+                    
+                    <li><a href="#Designs">Designs</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="fas fa-bars"></div>
+        </header>
+        <div id="slider">
+          <div class="hero row" style="z-index: 9999999; position: absolute; margin-top: 180px;">
+            <div class="col pl-3 ml-sm-5 p-0">
+              <h1 class="text1">[B]CONSTRUCTIVE</h1>
+              <h3 class="text2">Architechture services</h3>
+            </div>
+          </div>
+          <figure style="display:flex;">
+            <img src="troll.jpg" >
+            <img src="bath.jpg">
+            <img src="wall.jpg">
+            <img src="interior.jpg"> 
+            <img src="troll.jpg">
+          </figure>
+        </div>
+        <section id="home" class="home container-fluid p-0">
+            <div class="counting">
+                  <div class="box">
+                  <h1 class="count" data-count="1200">1200+</h1>
+                  <h3>working hours</h3>
+                </div>
+                <div class="box">
+                  <h1 class="count" data-count="3">3+</h1>
+                  <h3>Years Of Experience</h3>
+                </div>
+                <div class="box">
+                  <h1 class="count" data-count="4000">4000+</h1>
+                  <h3>Designs</h3>
+                </div>
+                <div class="box">
+                  <h1 class="count" data-count="8">8+</h1>
+                  <h3>projects</h3>
+                </div>
+                </div> 
+                <section id="about" class="about container">
+                    <h1 class="heading">About Us</h1>
+                    <div class="align-items-center">
+                      <div class="row image">
+                        <img src="interior2.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row info" style="display: flex; flex-direction: column;" width="100%">
+                        <h2>The Best Architectural Service In The City</h3>
+                        <br>
+                        <br>
+                        <h3>[B]constructive is all about  giving the innovative and modern solution to all your architectural desires, we assure you the best of experience with qualitative work and service.
+                          The firm has a motive to provide absolute creative designs infused with modern as well as traditional technologies to land out a building out of your vision.
+                        </h3>
+                        <br>
+                        <br>
+                        <h3> The basis to this firm is the new generation of finesse architects and the ideologies who promises to provide finest guidance though in the best possible way.
+                          Architectural, Interior and Landscape are the major three services you can take the best advantage of, with scope of sustainability, Vastu , Functionality and Maintainability in a type of projects like Residence, Offices, Cafe, Restaurants , Commercial Spaces, Banquet and many more.</h3>
+                        <div class="icons" style="align-self: center; margin-top: 20px;">
+                          <a href="#facebook" class="fab fa-facebook-f"></a>
+                          <a href="# twitter" class="fab fa-twitter"></a>
+                          <a href="https://instagram.com/b_constructive3467?igshid=YmMyMTA2M2Y" class="fab fa-instagram"></a>
+                          <a href="#" class="fab fa-pinterest "></a>
+                        </div>
+                      </div>
+                     </div>
+                    </section>
+                    <section id="services" class="service">
+                        <h1 class="heading">our services</h1>
+                        <div class="box-container mx-auto">
+                          <div class="box">
+                         <h3>Space Designing</h3>
+                         <br>
+                         <img src="space.png" height="30%" width="30%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                          <div class="box">
+                       <h3>Landscape</h3>
+                       <br>
+                       <img src="cityscape.png" height="30%" width="30%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                          <div class="box">
+                           <h3>Architectural Consultancy</h3>
+                           <br>
+                           <img src="architect.png" height="30%" width="30%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                          <div class="box">
+                            <h3>Exterior Designs</h3>
+                            <br>
+                          <img src="house.png" height="30%" width="30%>">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                          <div class="box">
+                            <br>
+                            <img src="id.png" height="30%" width="30%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                        
+                          <div class="box">
+                          <h3>Design Consultancy</h3>
+                          <br>
+                          <img src="brainstorm.png" height="30%" width="30%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex unde assumenda odio sint voluptatibus sed, quae deserunt fugit voluptates nisi!</p>
+                          </div>
+                        </div> 
+                        </section>
+                          <section id="Designs" class="Design">
+                            <div class="heading">Our Interiors </div>
+                            <div class="box-container mx-auto">
+                            <div class="box">
+                              <a href="img1.jpg" title="Interior">
+                                <img src="img1.jpg" alt="">
+                              </a>
+                            </div>
+                            <div class="box">
+                              <a href="img2.jpg" title="Interior">
+                                <img src="img2.jpg" alt="">
+                              </a>  
+                            </div>
+                            <div class="box">
+                              <a href="img3.jpg" title="kitchen">
+                                <img src="img3.jpg" alt="">
+                              </a>
+                            </div>
+                            <div class="box">
+                              <a href="img4.jpg" title="kitchen">
+                                <img src="img4.jpg" alt="">
+                              </a>
+                            </div>
+                            <div class="box">
+                              <a href="img7.jpeg" title="Decor">
+                                <img src="img7.jpeg" alt="">
+                              </a>
+                            </div>
+                            <div class="box">
+                              <a href="img11.jpeg" title="">
+                                <img src="img11.jpeg" alt="">
+                              </a>
+                            </div>
+                            </div>
+                            </section>
+                            <section id="Designs" class="Design">
+                              <div class="heading">Landscape </div>
+                              <div class="box-container mx-auto">
+                              <div class="box">
+                                <a href="img8.jpeg" title="Interior">
+                                  <img src="img8.jpeg" alt="">
+                                </a>
+                              </div>
+                              <div class="box">
+                                <a href="img9.jpeg" title="Interior">
+                                  <img src="img9.jpeg" alt="">
+                                </a>
+                              </div>
+                              <div class="box">
+                                <a href="img10.jpeg" title="kitchen">
+                                  <img src="img10.jpeg" alt="">
+                                </a>
+                              </div>
+                              <div class="box">
+                                <a href="img12.jpeg" title="kitchen">
+                                  <img src="img12.jpeg" alt="">
+                                </a>
+                              </div>
+                              <div class="box">
+                                <a href="img13.jpeg" title="Decor">
+                                  <img src="img13.jpeg" alt="">
+                                </a>
+                              </div>
+                              <div class="box">
+                                <a href="img11.jpeg" title="">
+                                  <img src="img11.jpeg" alt="">
+                                </a>
+                              </div>
+                              </div>
+                              </section>
+                              <section id="designs" class="Design">
+                                <div class="heading">Our Exterior's</div>
+                                <div class="box-container mx-auto">
+                                <div class="box">
+                                  <a href="img14.jpg" title="Exterior">
+                                    <img src="img14.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="box">
+                                  <a href="img15.jpg" title="Exterior">
+                                    <img src="img15.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="box">
+                                  <a href="img16.jpg" title="Exterior">
+                                    <img src="img16.jpg" alt="">
+                                  </a>
+                                </div>
+                                <div class="box">
+                                  <a href="img17.jpeg" title="Exterior">
+                                    <img src="img17.jpeg" alt="">
+                                  </a>
+                                </div>
+                                <div class="box">
+                                  <a href="img18.jpeg" title="Exterior">
+                                    <img src="img18.jpeg" alt="">
+                                  </a>
+                                </div>
+                                <div class="box">
+                                  <a href="img19.jpeg" title="">
+                                    <img src="img19.jpeg" alt="">
+                                  </a>
+                                </div>
+                                </div>
+                                </section>
+                                <section id="Designs" class="Design">
+                                  <div class="heading">Space Designs</div>
+                                  <div class="box-container mx-auto">
+                                  <div class="box">
+                                    <a href="img20.jpeg" title="Exterior">
+                                      <img src="img20.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="box">
+                                    <a href="img21.jpeg" title="Exterior">
+                                      <img src="img21.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="box">
+                                    <a href="img22.jpeg" title="Exterior">
+                                      <img src="img22.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="box">
+                                    <a href="img23.jpeg" title="Exterior">
+                                      <img src="img23.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="box">
+                                    <a href="img24.jpeg" title="Exterior">
+                                      <img src="img24.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="box">
+                                    <a href="img25.jpeg" title="">
+                                      <img src="img25.jpeg" alt="">
+                                    </a>
+                                  </div>
+                                  </div>
+                                  </section>
+                          <section id="contact" class="contact">
+                            <h1 class="heading">contact us</h1>
+                            <div class="contact-box-container mx-auto">
+                            <div class="contact-box">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <h3>Delhi-11001, India</h3>
+                            </div>
+                            <div class="contact-box">
+                              <i class="fas fa-envelope"></i>
+                              <h3>bconstructive3467@gmail.com</h3>
+                            </div>
+                            <div class="contact-box">
+                              <i class="fas fa-phone"></i>
+                              <h3>+91742874827423342</h3>
+                            </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                           <footer>
+                            <div class="row">
+                              <div class ="col">
+                                <img src="achipro.png" class="wro">
+                              </div>
+                              <div class="col">
+                                <h3>Our Services<div class="underline"><span></span></div></h3>
+                                <p>Architectural Consultancy</p>
+                                <p>Space Designing</p>
+                                <p>Interior Designing</p>
+                                <p>Exterior Designing</p>
+                                <p>Design Consultancy</p>
+                              </div>
+                              <div class="col">
+                                <h3>Our Location<div class="underline"><span></span></div></h3>
+                                <p>Delhi</p>
+                                <p>Khurja</p>
+                                <p>Gurugram</p>
+                                <p>Bulandshahr</p>
+                                <p>Kanpur</p>
+                              </div>
+                              <div class="social">
+                                <h3>Follow us<div class="underline"><span></span></div></h3>
+                                <br>
+                                <div style="margin-top: 30px;">
+                                  <a  href="#" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+                                  <!-- Twitter -->
+                                  <a href="#" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+                                  <!-- Google -->
+                                  <a  href="#" role="button"><i class="fab fa-google fa-lg"></i></a>
+                                  <!-- Instagram -->
+                                  <a href="#" role="button"><i class="fab fa-instagram fa-lg"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <hr>
+                            
+                           </footer>
+      <!-- jquery file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- magnific popup link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- main/custom javascript file link  -->
+<script src="main.js"></script>
+    </body>
+</html>
